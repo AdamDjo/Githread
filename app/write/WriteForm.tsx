@@ -32,6 +32,7 @@ export const WritePostForm = ({ user, onSubmit }: WritePostFormProps) => {
   return (
     <PostLayout user={user}>
       <Form
+        className="border p-5 border-accent"
         form={form}
         onSubmit={async (values) => {
           const postId = await onSubmit(values);
