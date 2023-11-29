@@ -36,7 +36,7 @@ export const WritePostForm = ({ user, onSubmit }: WritePostFormProps) => {
         onSubmit={async (values) => {
           const postId = await onSubmit(values);
           console.log('submit clientside', postId);
-          router.push(`/post/${postId}`);
+          router.push(`/posts/${postId}`);
           // router.push('/');
         }}
       >
