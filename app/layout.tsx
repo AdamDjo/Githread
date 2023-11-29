@@ -20,7 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={clsx(inter.className, 'bg-background h-full')}>
+      <body
+        className={clsx(inter.className, 'bg-background h-full')}
+        suppressHydrationWarning={true}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
