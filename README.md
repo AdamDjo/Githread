@@ -2,7 +2,7 @@
 
 Designed by - ME with shadUI <br/>Live preview [here](https://githread-adam.vercel.app/)<br/>
 
-![Imgur](https://imgur.com/T01cqBe)
+![Imgur](https://i.imgur.com/T01cqBe.png)
 
 // to run this projet in your local 
 
