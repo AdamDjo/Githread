@@ -6,7 +6,7 @@ import React from 'react';
 
 export default async function Home() {
   const session = await getAuthSession();
-  const post = await getLatestPost();
+  const post = await getLatestPost(session?.user.id);
   return (
     <div className="divide-y divide-muted">
       {post.map((p) => (
